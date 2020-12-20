@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Documentaion',
+  tagline: 'This is a documentation website',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -18,11 +18,11 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
+          // activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
